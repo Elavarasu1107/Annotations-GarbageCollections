@@ -24,8 +24,8 @@ namespace Annotations_GarbageCollections
                     {
                         DisposableResourceHolder disposableResourceHolder = new DisposableResourceHolder();
                         disposableResourceHolder.Dispose();
-                        //GarbageCollection garbageCollection = new GarbageCollection();
-                        //garbageCollection.Collector();
+                        GarbageCollection garbageCollection = new GarbageCollection();
+                        garbageCollection.Collector();
                         break;
                     }
                 default:
